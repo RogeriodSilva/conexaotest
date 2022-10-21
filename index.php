@@ -1,7 +1,7 @@
 <?php
 
-require_once('./config/Conexao.php');
-Conexao::getConnect()
+require_once('./Conexao.php');
+Conexao::getConnect();
 
 ?>
 
