@@ -13,7 +13,7 @@ class Conexao
         $db_senha = "Huawei@GP-SENAI-010";
 
         try {
-            self::$conexao = new PDO("$db_driver:host=$db_host; dbname=$db_nome", $db_usuario, $db_senha);
+            self::$conexao = new PDO("host=$db_host; dbname=$db_nome", $db_usuario, $db_senha);
             self::$conexao->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             self::$conexao->exec('SET NAMES utf8');
 
