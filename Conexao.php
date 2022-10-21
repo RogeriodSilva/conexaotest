@@ -7,7 +7,7 @@ class Conexao
     {
 
         $db_host = "192.168.0.214";
-        $db_driver = "mysql";
+        $db_driver = "";
         $db_nome = "equipe010";
         $db_usuario = "equipe010";
         $db_senha = "Huawei@GP-SENAI-010";
